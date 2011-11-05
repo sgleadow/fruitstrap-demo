@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95EC1C11464BD390058E3BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1C01464BD390058E3BE /* UIKit.framework */; };
+		C95EC1C31464BD390058E3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1C21464BD390058E3BE /* Foundation.framework */; };
+		C95EC1C51464BD390058E3BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1C41464BD390058E3BE /* CoreGraphics.framework */; };
+		C95EC1CB1464BD390058E3BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95EC1C91464BD390058E3BE /* InfoPlist.strings */; };
+		C95EC1CD1464BD390058E3BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95EC1CC1464BD390058E3BE /* main.m */; };
+		C95EC1D11464BD390058E3BE /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95EC1D01464BD390058E3BE /* SGAppDelegate.m */; };
+		C95EC1D41464BD390058E3BE /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95EC1D31464BD390058E3BE /* SGViewController.m */; };
+		C95EC1D71464BD390058E3BE /* SGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95EC1D51464BD390058E3BE /* SGViewController.xib */; };
+		C95EC1DF1464BD390058E3BE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1DE1464BD390058E3BE /* SenTestingKit.framework */; };
+		C95EC1E01464BD390058E3BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1C01464BD390058E3BE /* UIKit.framework */; };
+		C95EC1E11464BD390058E3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95EC1C21464BD390058E3BE /* Foundation.framework */; };
+		C95EC1E91464BD390058E3BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95EC1E71464BD390058E3BE /* InfoPlist.strings */; };
+		C95EC1EC1464BD390058E3BE /* fruitstrap_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95EC1EB1464BD390058E3BE /* fruitstrap_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95EC1E21464BD390058E3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95EC1B31464BD390058E3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95EC1BB1464BD390058E3BE;
+			remoteInfo = "fruitstrap-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95EC1BC1464BD390058E3BE /* fruitstrap-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fruitstrap-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95EC1C01464BD390058E3BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C95EC1C21464BD390058E3BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C95EC1C41464BD390058E3BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C95EC1C81464BD390058E3BE /* fruitstrap-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fruitstrap-demo-Info.plist"; sourceTree = "<group>"; };
+		C95EC1CA1464BD390058E3BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C95EC1CC1464BD390058E3BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95EC1CE1464BD390058E3BE /* fruitstrap-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fruitstrap-demo-Prefix.pch"; sourceTree = "<group>"; };
+		C95EC1CF1464BD390058E3BE /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		C95EC1D01464BD390058E3BE /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		C95EC1D21464BD390058E3BE /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		C95EC1D31464BD390058E3BE /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		C95EC1D61464BD390058E3BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGViewController.xib; sourceTree = "<group>"; };
+		C95EC1DD1464BD390058E3BE /* fruitstrap-demoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fruitstrap-demoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95EC1DE1464BD390058E3BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C95EC1E61464BD390058E3BE /* fruitstrap-demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fruitstrap-demoTests-Info.plist"; sourceTree = "<group>"; };
+		C95EC1E81464BD390058E3BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C95EC1EA1464BD390058E3BE /* fruitstrap_demoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fruitstrap_demoTests.h; sourceTree = "<group>"; };
+		C95EC1EB1464BD390058E3BE /* fruitstrap_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fruitstrap_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95EC1B91464BD390058E3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1C11464BD390058E3BE /* UIKit.framework in Frameworks */,
+				C95EC1C31464BD390058E3BE /* Foundation.framework in Frameworks */,
+				C95EC1C51464BD390058E3BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95EC1D91464BD390058E3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1DF1464BD390058E3BE /* SenTestingKit.framework in Frameworks */,
+				C95EC1E01464BD390058E3BE /* UIKit.framework in Frameworks */,
+				C95EC1E11464BD390058E3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95EC1B11464BD390058E3BE = {
+			isa = PBXGroup;
+			children = (
+				C95EC1C61464BD390058E3BE /* fruitstrap-demo */,
+				C95EC1E41464BD390058E3BE /* fruitstrap-demoTests */,
+				C95EC1BF1464BD390058E3BE /* Frameworks */,
+				C95EC1BD1464BD390058E3BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95EC1BD1464BD390058E3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1BC1464BD390058E3BE /* fruitstrap-demo.app */,
+				C95EC1DD1464BD390058E3BE /* fruitstrap-demoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95EC1BF1464BD390058E3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1C01464BD390058E3BE /* UIKit.framework */,
+				C95EC1C21464BD390058E3BE /* Foundation.framework */,
+				C95EC1C41464BD390058E3BE /* CoreGraphics.framework */,
+				C95EC1DE1464BD390058E3BE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95EC1C61464BD390058E3BE /* fruitstrap-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1CF1464BD390058E3BE /* SGAppDelegate.h */,
+				C95EC1D01464BD390058E3BE /* SGAppDelegate.m */,
+				C95EC1D21464BD390058E3BE /* SGViewController.h */,
+				C95EC1D31464BD390058E3BE /* SGViewController.m */,
+				C95EC1D51464BD390058E3BE /* SGViewController.xib */,
+				C95EC1C71464BD390058E3BE /* Supporting Files */,
+			);
+			path = "fruitstrap-demo";
+			sourceTree = "<group>";
+		};
+		C95EC1C71464BD390058E3BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1C81464BD390058E3BE /* fruitstrap-demo-Info.plist */,
+				C95EC1C91464BD390058E3BE /* InfoPlist.strings */,
+				C95EC1CC1464BD390058E3BE /* main.m */,
+				C95EC1CE1464BD390058E3BE /* fruitstrap-demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C95EC1E41464BD390058E3BE /* fruitstrap-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1EA1464BD390058E3BE /* fruitstrap_demoTests.h */,
+				C95EC1EB1464BD390058E3BE /* fruitstrap_demoTests.m */,
+				C95EC1E51464BD390058E3BE /* Supporting Files */,
+			);
+			path = "fruitstrap-demoTests";
+			sourceTree = "<group>";
+		};
+		C95EC1E51464BD390058E3BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95EC1E61464BD390058E3BE /* fruitstrap-demoTests-Info.plist */,
+				C95EC1E71464BD390058E3BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95EC1BB1464BD390058E3BE /* fruitstrap-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95EC1EF1464BD390058E3BE /* Build configuration list for PBXNativeTarget "fruitstrap-demo" */;
+			buildPhases = (
+				C95EC1B81464BD390058E3BE /* Sources */,
+				C95EC1B91464BD390058E3BE /* Frameworks */,
+				C95EC1BA1464BD390058E3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fruitstrap-demo";
+			productName = "fruitstrap-demo";
+			productReference = C95EC1BC1464BD390058E3BE /* fruitstrap-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95EC1DC1464BD390058E3BE /* fruitstrap-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95EC1F21464BD390058E3BE /* Build configuration list for PBXNativeTarget "fruitstrap-demoTests" */;
+			buildPhases = (
+				C95EC1D81464BD390058E3BE /* Sources */,
+				C95EC1D91464BD390058E3BE /* Frameworks */,
+				C95EC1DA1464BD390058E3BE /* Resources */,
+				C95EC1DB1464BD390058E3BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95EC1E31464BD390058E3BE /* PBXTargetDependency */,
+			);
+			name = "fruitstrap-demoTests";
+			productName = "fruitstrap-demoTests";
+			productReference = C95EC1DD1464BD390058E3BE /* fruitstrap-demoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95EC1B31464BD390058E3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C95EC1B61464BD390058E3BE /* Build configuration list for PBXProject "fruitstrap-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C95EC1B11464BD390058E3BE;
+			productRefGroup = C95EC1BD1464BD390058E3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95EC1BB1464BD390058E3BE /* fruitstrap-demo */,
+				C95EC1DC1464BD390058E3BE /* fruitstrap-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95EC1BA1464BD390058E3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1CB1464BD390058E3BE /* InfoPlist.strings in Resources */,
+				C95EC1D71464BD390058E3BE /* SGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95EC1DA1464BD390058E3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1E91464BD390058E3BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C95EC1DB1464BD390058E3BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95EC1B81464BD390058E3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1CD1464BD390058E3BE /* main.m in Sources */,
+				C95EC1D11464BD390058E3BE /* SGAppDelegate.m in Sources */,
+				C95EC1D41464BD390058E3BE /* SGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95EC1D81464BD390058E3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95EC1EC1464BD390058E3BE /* fruitstrap_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95EC1E31464BD390058E3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95EC1BB1464BD390058E3BE /* fruitstrap-demo */;
+			targetProxy = C95EC1E21464BD390058E3BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95EC1C91464BD390058E3BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95EC1CA1464BD390058E3BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C95EC1D51464BD390058E3BE /* SGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95EC1D61464BD390058E3BE /* en */,
+			);
+			name = SGViewController.xib;
+			sourceTree = "<group>";
+		};
+		C95EC1E71464BD390058E3BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95EC1E81464BD390058E3BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95EC1ED1464BD390058E3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C95EC1EE1464BD390058E3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95EC1F01464BD390058E3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
+				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C95EC1F11464BD390058E3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
+				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C95EC1F31464BD390058E3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fruitstrap-demo.app/fruitstrap-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
+				INFOPLIST_FILE = "fruitstrap-demoTests/fruitstrap-demoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C95EC1F41464BD390058E3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fruitstrap-demo.app/fruitstrap-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
+				INFOPLIST_FILE = "fruitstrap-demoTests/fruitstrap-demoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95EC1B61464BD390058E3BE /* Build configuration list for PBXProject "fruitstrap-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95EC1ED1464BD390058E3BE /* Debug */,
+				C95EC1EE1464BD390058E3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95EC1EF1464BD390058E3BE /* Build configuration list for PBXNativeTarget "fruitstrap-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95EC1F01464BD390058E3BE /* Debug */,
+				C95EC1F11464BD390058E3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C95EC1F21464BD390058E3BE /* Build configuration list for PBXNativeTarget "fruitstrap-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95EC1F31464BD390058E3BE /* Debug */,
+				C95EC1F41464BD390058E3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95EC1B31464BD390058E3BE /* Project object */;
+}
