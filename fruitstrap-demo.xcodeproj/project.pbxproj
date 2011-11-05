@@ -357,10 +357,14 @@
 		C95EC1F01464BD390058E3BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
 				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,10 +372,13 @@
 		C95EC1F11464BD390058E3BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
 				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,6 +436,7 @@
 				C95EC1F11464BD390058E3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95EC1F21464BD390058E3BE /* Build configuration list for PBXNativeTarget "fruitstrap-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +445,7 @@
 				C95EC1F41464BD390058E3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
