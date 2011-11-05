@@ -1,0 +1,17 @@
+Fruitstrap Demo
+---------------
+
+A demo application for using
+[fruitstrap](https://github.com/ghughes/fruitstrap) to install your iOS
+application on an actual device from the command line.
+
+See [my blog
+post](http://sgleadow.github.com/blog/2011/11/05/installing-ios-apps-on-the-device-from-the-command-line/)
+for more details.
+
+Try it out
+----------
+
+```
+git clone
+```
