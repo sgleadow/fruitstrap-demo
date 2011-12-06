@@ -359,11 +359,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "$(SRCROOT)";
+				DSTROOT = "$(SRCROOT)/";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
 				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
-				INSTALL_PATH = /apps;
+				INSTALL_PATH = apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -376,11 +376,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DSTROOT = "$(SRCROOT)";
+				DSTROOT = "$(SRCROOT)/";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fruitstrap-demo/fruitstrap-demo-Prefix.pch";
 				INFOPLIST_FILE = "fruitstrap-demo/fruitstrap-demo-Info.plist";
-				INSTALL_PATH = /apps;
+				INSTALL_PATH = apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
