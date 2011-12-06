@@ -9,7 +9,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Do nothing unless we are running from the command line&#10;if [ &quot;$FRUITSTRAP_CLI&quot; = &quot;&quot; ]; then&#10;exit 0&#10;fi&#10;&#10;echo &quot;******************&quot;&#10;echo &quot;Installing app to device using fruitstrap...&quot;&#10;echo &quot;Workspace location: $SRCROOT&quot;&#10;echo &quot;Install location: $TARGET_BUILD_DIR/$FULL_PRODUCT_NAME&quot;&#10;echo &quot;******************&quot;&#10;&#10;APP_DIR=&quot;$DSTROOT/$INSTALL_PATH&quot;&#10;APP_PATH=$APP_DIR/$FULL_PRODUCT_NAME&#10;mkdir -p $APP_DIR&#10;cp -r &quot;$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME&quot; $APP_PATH&#10;&#10;for DEVICE_ID in `$SRCROOT/bin/iphone_detect | uniq`; do&#10;  echo &quot;----------------&quot;&#10;  echo &quot;Installing $APP_PATH on $DEVICE_ID&quot;&#10;  echo &quot;$SRCROOT/bin/fruitstrap $APP_PATH&quot;&#10;  $SRCROOT/bin/fruitstrap $APP_PATH $DEVICE_ID&#10;  echo &quot;----------------&quot;&#10;done&#10;&#10;echo &quot;******************&quot;">
+               scriptText = "sh $SRCROOT/bin/install_on_devices.sh">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
