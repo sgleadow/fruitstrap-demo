@@ -7,4 +7,4 @@ install:
 
 clean:
 	xcodebuild -scheme fruitstrap-demo -sdk iphoneos clean
-	rm -rf apps/*
+	rm -rf apps

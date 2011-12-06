@@ -18,3 +18,5 @@ build/
 *.REMOTE.*
 *.LOCAL.*
 *.BASE.*
+
+apps
